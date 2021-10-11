@@ -1,6 +1,5 @@
 <?php
 
-echo "这是lego项目" . __FILE__;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 

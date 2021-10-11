@@ -14,7 +14,7 @@ class Works extends Model
     protected $primaryKey = 'works_id';
 
 
-    protected $casts = ['works_image' => 'string', 'title' => 'string', 'tags' => 'json', 'user_id' => 'int', 'date' => 'string', 'created_at' => 'datetime', 'updated_at' => 'datetime'];
+    protected $casts = ['works_image' => 'string', 'title' => 'string', 'tags' => 'array', 'user_id' => 'int', 'date' => 'string', 'created_at' => 'datetime', 'updated_at' => 'datetime'];
 
 
     protected function serializeDate(\DateTimeInterface $date)
